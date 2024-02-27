@@ -1,0 +1,209 @@
+@media (max-width: 1199px) {
+  /*  header section */
+  .header_row {
+    padding: 0.8em 0em;
+  }
+  .header_div2 {
+    width: 48%;
+  }
+  .header_div2_div {
+    gap: 0.4em;
+  }
+
+  .header_div2_div h6 {
+    font-size: 0.8em;
+  }
+  .header_logo {
+    width: 9.5em;
+  }
+  .header_btn {
+    width: 7.5em;
+    height: 2.5em;
+  }
+  .header_btn:hover {
+    width: 7.5em;
+    height: 2.5em;
+  }
+
+  /*  header section */
+  /* banner section */
+  .carousel-caption {
+    width: 60%;
+    top: 4em;
+    left: 3.5em;
+  }
+  .carousel-caption h1 {
+    font-weight: 550;
+    font-size: 2em;
+  }
+  .carousel-caption h1 span {
+    font-weight: 550;
+  }
+  .carousel-caption p {
+    font-weight: 400;
+    font-size: 1em;
+    margin: 1em 0;
+  }
+  /* banner section */
+  /* card section */
+  .card_Section {
+    margin: 0em 0;
+  }
+  .card_i {
+    margin: 0.5em 0;
+  }
+  /* card section */
+  /* history section */
+  .history_section_div p {
+    width: 80%;
+  }
+  .history_section_div h2 {
+    width: 70%;
+  }
+
+  /* history section */
+/* about section */
+.about_div3 div {
+  margin: 0.6em;
+  margin-top: 2em;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 4px 6px 0 rgba(116, 115, 115, 0.19), 0 2px 4px 0 rgba(116, 115, 115, 0.19);
+  background-color: #f7fbff;
+  width: 44%;
+  padding-left: 1em;
+  padding-top: 0.5em;
+}
+/* about section */
+}
+
+@media (max-width: 768px) {
+  /* banner section */
+  .carousel-caption {
+    top: 3em;
+    left: 2em;
+  }
+
+  /* banner section */
+}
+@media (max-width: 767px) {
+  /* zero header section */
+  .zero_header_row {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.6em;
+  }
+  .zero_header_div {
+    justify-content: center;
+  }
+  /* zero header section */
+  /*  header section */
+  .header_row {
+    padding: 0.5em 0.5em;
+  }
+  .header_div2 {
+    display: none;
+  }
+  .header_logo {
+    height: 3em;
+    width: 10em;
+  }
+  .header_btn {
+    width: 7.2em;
+    height: 2.5em;
+  }
+  .header_btn:hover {
+    width: 7.2em;
+    height: 2.5em;
+  }
+
+  /*  header section */
+  /* banner section */
+  .carousel-caption {
+    width: 60%;
+    top: 1em;
+    left: 1em;
+  }
+  .carousel-caption h1 {
+    font-weight: 500;
+    font-size: 1em;
+    margin-bottom: 0em;
+  }
+  .carousel-caption h1 span {
+    font-weight: 550;
+  }
+  .carousel-caption p {
+    font-weight: 400;
+    font-size: 0.6em;
+    margin: 0.4em 0;
+  }
+  .carousel-caption button {
+    width: 9em;
+    border: 3px solid #abebb7;
+    height: 3.5em;
+    border-radius: 2em;
+    margin-top: 0.5em;
+    font-size: 0.7em;
+  }
+  /* banner section */
+  /* card section */
+  .card_div h4 {
+    font-weight: 550;
+    font-size: 1.1em;
+  }
+  .card_div P {
+    margin-bottom: 0.3em;
+    font-size: 0.8em;
+  }
+  .card_i {
+    font-size: 1.6em;
+
+    width: 2em;
+    height: 2em;
+  }
+  .card_Section {
+    margin: 1em 0;
+  }
+  /* card section */
+  /* history section */
+  .history_section_div p {
+    width: 100%;
+  }
+  .history_section_div h2 {
+    width: 100%;
+  }
+  .history_section {
+    margin: 2em 0;
+  }
+  /* history section */
+  /* about section */
+  .about_div3 {
+    margin-top: 1em;
+  }
+  .about_div4 {
+    margin-top: 2.8em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+  /* about section */
+}
+
+@media (max-width: 360px) {
+  /* banner section */
+  .carousel-caption {
+    top: 0.8em;
+  }
+  .carousel-caption button {
+    width: 8em;
+    border: 3px solid #abebb7;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    border-radius: 2em;
+    margin-top: 0.5em;
+    font-size: 0.7em;
+  }
+  /* banner section */
+}
